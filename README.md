@@ -2,7 +2,7 @@
 
 Personal website, meant to be a clean and simplistic site. Built without any frameworks, just CSS Flexbox and Grid.
 
-###TODO:
+### TODO:
 
 * Project page
 * Blog?
