@@ -76,5 +76,16 @@ p {
 
 #links {
   /*   background-color: blue;  */
-  grid-column: 1/-1;
+  grid-column: 3/-3;
+}
+
+#linkcontainer > a {
+  text-decoration: none;
+}
+
+.icon {
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 25px;
+  height: auto;
 }
