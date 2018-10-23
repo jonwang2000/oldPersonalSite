@@ -2,7 +2,7 @@
 
 Personal website, meant to be a clean and simplistic site. Built without any frameworks, just CSS Flexbox and Grid.
 
-[wangjonathan.me](wangjonathan.me)
+[wangjonathan.me](https://wangjonathan.me)
 
 ### Currently Working On:
 * About page, probably education/current status
