@@ -2,3 +2,7 @@
     /*   background-color: yellow;  */
     grid-column: 3/-3;
 }
+
+.navcontainer {
+    grid-column: 3/-3;
+}
