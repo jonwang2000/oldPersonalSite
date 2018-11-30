@@ -23,6 +23,26 @@ p {
     margin-bottom: 10px;
 }
 
+#resumeLink {
+    text-decoration: none;
+}
+
+#resumeLink:visited {
+    color: #0539D7;
+}
+
+#resumeLink:link{
+    color: #0539D7;
+}
+
+#resumeLink:hover {
+    color: #002288;
+}
+
+#resumeLink:active {
+    color: #002288;
+}
+
 #subtitle {
     padding-bottom: 10px;
 }
