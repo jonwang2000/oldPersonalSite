@@ -67,3 +67,23 @@ body {
 .navcontainer>p>a:active {
   color: #515151;
 }
+
+.cleanLink {
+  text-decoration: none;
+}
+
+.cleanLink:visited {
+  color: #0539D7;
+}
+
+.cleanLink:link{
+  color: #0539D7;
+}
+
+.cleanLink:hover {
+  color: #002288;
+}
+
+.cleanLink:active {
+  color: #002288;
+}
