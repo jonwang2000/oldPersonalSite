@@ -51,4 +51,9 @@ p {
 
 .navcontainer {
     padding-top: 10px;
+    color: #000080;
+}
+
+#projectLink {
+    color: #000080;
 }
