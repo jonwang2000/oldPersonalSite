@@ -3,7 +3,8 @@
 Personal website, meant to be a clean and simplistic site. Built without any frameworks, just CSS Flexbox and Grid.
 
 ### Currently Working On:
-* Projects page
+* ~~Projects page~~ Done, responsive and with cards
+* Making home page responsive
 
 ### TODO:
 
