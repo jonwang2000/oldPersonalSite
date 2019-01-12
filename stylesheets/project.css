@@ -95,9 +95,20 @@
     text-align: right;
 }
 
-.cardLink {
-    display: inline-block;
+.cardLink, .cardLink:visited, .cardLink:link {
     position: relative;
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 8px 8px;
+    text-align: center;
+    background-color: #000080;
+    font-size: 0.9rem;
+    border-radius: 1px;
+}
+
+.cardLink:active, .cardLink:hover {
+    background-color: #0000b3;
 }
 
 .cardInfo p {
@@ -105,6 +116,19 @@
     margin: 1rem 0 0;
 }
 
+.cardInfo p:first-of-type {
+    margin-top: 1.4rem;
+}
+
+.cardInfo p:first-of-type:before {
+    content: "";
+    position: absolute;
+    height: 5px;
+    background: #000080;
+    width: 35px;
+    top: -0.65rem;
+    border-radius: 3px;
+}
 
 @media (min-width: 640px) {
     .card {
