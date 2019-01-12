@@ -46,21 +46,78 @@
 
         <div id="main">
 
+            <div class="introText">
+                <h1 id="title">Projects</h1>
+                <p>Here are some small projects that I've worked on. Hover on a card to see the languages I used.</p>
+            </div>
+
             <div class="projects">
+
+                <div class="card ">
+                    <div class="cardMeta">
+                        <div class="cardPhoto" style="background-image: url(images/personalsite.png)"></div>
+                        <div class="cardDetails">
+                            <p>⚙️: HTML5, CSS3</p>
+                        </div>
+                    </div>
+                    <div class="cardInfo">
+                        <h1>Personal Site</h1>
+                        <p>The website that you're on right now! A simple static site built with pure HTML/CSS, using
+                            grid/flexbox for positioning.</p>
+                        <p class="cardLinks">
+                            <a href="https://github.com/jonwang2000/PersonalSite" class="cardLink">Github</a>
+                        </p>
+                    </div>
+                </div>
 
                 <div class="card reverse">
                     <div class="cardMeta">
-                            <div class="cardPhoto" style="background-image: url(images/calculator.png)"></div>
-                            <div class="cardDetails">
-                                <p>⚙️: HTML5, CSS3, JavaScript</p>
-                            </div>
+                        <div class="cardPhoto" style="background-image: url(images/calculator.png)"></div>
+                        <div class="cardDetails">
+                            <p>⚙️: HTML5, CSS3, JavaScript</p>
+                        </div>
                     </div>
                     <div class="cardInfo">
                         <h1>Calculator</h1>
-                        <p>A small calculator I built with Javascript</p>
+                        <p>A small calculator I built with Javascript, primarily using the (flawed) &nbsp; <span class="code">eval()</span>
+                            method.</p>
                         <p class="cardLinks">
-                            <a href="#" class="cardLink">Github</a> &nbsp;  <a href="#" class="cardLink">Demo</a>
+                            <a href="https://jonwang2000.github.io/Calculator/" class="cardLink">Demo</a> &nbsp; <a
+                                href="https://github.com/jonwang2000/Calculator" class="cardLink">Github</a>
                         </p>
+                    </div>
+                </div>
+
+                <div class="card ">
+                    <div class="cardMeta">
+                        <div class="cardPhoto" style="background-image: url(images/texttools.png)"></div>
+                        <div class="cardDetails">
+                            <p>⚙️: HTML5, CSS3, JavaScript</p>
+                        </div>
+                    </div>
+                    <div class="cardInfo">
+                        <h1>TextTools</h1>
+                        <p>Very simplistic JS app dealing with text, providing a Save/Load function and word/character
+                            counts. WIP.</p>
+                        <p class="cardLinks">
+                            <a href="https://jonwang2000.github.io/textTools/" class="cardLink">Demo</a> &nbsp; <a href="https://github.com/jonwang2000/textTools"
+                                class="cardLink">Github</a>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="card reverse">
+                    <div class="cardMeta">
+                        <div class="cardPhoto" style="background-image: url(images/snake.png)"></div>
+                        <div class="cardDetails">
+                            <p>⚙️: Python 2.7</p>
+                        </div>
+                    </div>
+                    <div class="cardInfo">
+                        <h1>Two Player Snake</h1>
+                        <p>Snake game made in Python, using TkInter and pygame. Made a local 1v1 gamemode where players
+                            compete against each other.</p>
+                        <p class="cardLinks"> <a href="https://github.com/jonwang2000/twoPlayerSnake" class="cardLink">Github</a> </p>
                     </div>
                 </div>
 
@@ -83,3 +140,25 @@
 </body>
 
 </html>
+
+
+<!-- Empty Card:
+
+<div class="card ">
+    <div class="cardMeta">
+        <div class="cardPhoto" style="background-image: url(****)"></div>
+        <div class="cardDetails">
+            <p>⚙️: *****</p>
+        </div>
+    </div>
+    <div class="cardInfo">
+        <h1>*****</h1>
+        <p>******</p>
+        <p class="cardLinks">
+             <a href="*****"
+                class="cardLink">Demo</a> &nbsp;  <a href="*****" class="cardLink">Github</a>
+        </p>
+    </div>
+</div>
+
+-->

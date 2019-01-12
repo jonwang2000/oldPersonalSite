@@ -93,3 +93,7 @@ body {
 .cleanLink:active {
   color: #002288;
 }
+
+.code {
+  font-family: 'Courier New', Courier, monospace;
+}
