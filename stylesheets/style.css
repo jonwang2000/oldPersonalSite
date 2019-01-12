@@ -68,6 +68,12 @@ body {
   color: #515151;
 }
 
+.navcontainer {
+  padding-top: 10px;
+  color: #000080;
+}
+
+
 .cleanLink {
   text-decoration: none;
 }
