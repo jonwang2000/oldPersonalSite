@@ -1,4 +1,4 @@
-.text {
+.projects {
     grid-column: 3/-3;
 }
 
@@ -16,4 +16,95 @@
 
 #backLink {
     color: #000080;
+}
+
+.card {
+    display:flex;
+    flex-direction: column;
+    margin: 1rem auto;
+    box-shadow: 0 3px 7px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.6%;
+    background: #f1f1f1;
+    line-height: 1.4;
+    border-radius: 5px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.cardMeta {
+    position: relative;
+    z-index: 0;
+    height: 200px;
+}
+
+.cardPhoto {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center;
+
+}
+
+.cardInfo {
+    padding: 1rem;
+    background: #F9F8F8;
+    position: relative;
+    z-index: 1;
+    text-align: left;
+}
+
+.cardInfo h1{
+    line-height: 1;
+    margin: 0;
+    font-size: 1.7rem;
+}
+
+.cardLinks {
+    text-align: right;
+}
+
+.cardLink {
+    display: inline-block;
+    position: relative;
+}
+
+.cardInfo p {
+    position: relative;
+    margin: 1rem 0 0;
+}
+
+@media (min-width: 640px) {
+    .card {
+        flex-direction: row;
+        max-width: 700px;
+    }
+    .cardMeta {
+        flex-basis: 40%;
+        height: auto;
+    }
+    .cardInfo {
+        flex-basis: 60%;
+    }
+    .cardInfo:before {
+        transform: skewX(-3deg);
+        content: "";
+        background: #F9F8F8;
+        width: 30px;
+        position: absolute;
+        left: -10px;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+    }
+    .card.reverse {
+        flex-direction: row-reverse;
+    }
+    .card.reverse .cardInfo:before {
+        left:inherit;
+        right: -10px;
+        transform: skew(3deg);
+    }
 }
